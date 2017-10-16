@@ -1,0 +1,15 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+android {
+	productFlavors {
+		"nativescript-libstream" {
+			dimension "nativescript-libstream"
+		}
+	}
+}
+
+dependencies {
+    // Describe plugin native Android dependencies like
+	compile "net.majorkernelpanic.streaming:libstream:4.0" 
+    // EXAMPLE: compile "com.facebook.fresco:fresco:0.9.0+"
+}
